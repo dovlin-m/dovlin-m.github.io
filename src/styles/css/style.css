@@ -1,31 +1,100 @@
-/*desktop*/
-h1 {
-  font-size: 60px;
-  line-height: 90px;
-  font-weight: bold;
-  text-transform: uppercase;
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../src/fonts/Roboto-Regular.ttf");
 }
-
-h2 {
-  font-size: 38px;
-  line-height: 57px;
-  font-weight: bold;
-  text-transform: uppercase;
+@font-face {
+  font-family: "Roboto-Medium.ttf";
+  src: url(../src/fonts/Roboto-Medium.ttf);
 }
-
-/*mobile*/
-h1 {
-  font-size: 30px;
-  line-height: 45px;
-  font-weight: bold;
-  text-transform: uppercase;
+@font-face {
+  font-family: "Roboto-Bold.ttf";
+  src: url(../src/fonts/Roboto-Bold.ttf);
 }
-
-h2 {
+body {
+  font-family: "Roboto-Regular" sans-serif;
   font-size: 18px;
-  line-height: 27px;
-  font-weight: bold;
-  text-transform: uppercase;
+  line-height: 1.5;
+  color: #cacaca;
+  background: #08020d;
+}
+
+.position-rel {
+  position: relative;
+}
+
+.position-abs {
+  position: absolute;
+}
+
+/*desktop*/
+@media (min-width: 1240px) {
+  h1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 38px;
+    line-height: 57px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+/*mobile*/
+@media (min-width: 1240px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+.background-header {
+  background-image: url("../src/images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.header-section {
+  position: absolute;
+  margin-top: 25px;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+  width: 1200;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.logo-music-box {
+  width: fit-content;
 }
 
 /*# sourceMappingURL=style.css.map */
