@@ -17,6 +17,9 @@
     "stylelint-scss": "^4.1.0",
     "surge": "^0.23.1"
   },
-  "author": "Nikita Mikhaylov",
-  "license": "ISC"
+  "author": "Davydov Maxim",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
 }
