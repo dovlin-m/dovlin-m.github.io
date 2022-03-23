@@ -1,0 +1,70 @@
+@mixin background-header {
+
+    background-image: url('../src/images/banner.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.background-header {
+
+    @include background-header;
+}
+
+@mixin section {
+    position: absolute;
+    margin-top: 25px;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.header-section {
+    @include section;
+}
+
+@mixin header-left {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-left {
+    @include header-left;
+}
+
+@mixin container {
+
+    width: 1200;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container {
+    @include container;
+}
+
+@mixin logo { 
+    width: 24px;
+    height: 24px;
+}
+
+.logo {
+    @include logo;
+}
+
+@mixin d-flex {
+    display: flex;
+}
+
+.display-flex {
+    @include d-flex;
+}
+
+@mixin fit-cont {
+    width: fit-content;
+}
+
+.logo-music-box {
+    @include fit-cont;
+}
