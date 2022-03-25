@@ -96,15 +96,8 @@ body {
   align-items: center;
 }
 
-.logo-title {
-  margin-top: 16px;
-}
-.logo-title:last-child {
-  margin-top: 90px;
-}
-
 .text-header {
-  margin-top: 24px;
+  margin-right: 24px;
   padding-top: 3px;
   color: #E0E0E0;
   font-size: 11px;
@@ -114,7 +107,14 @@ body {
   text-transform: uppercase;
 }
 .text-header:last-child {
-  margin-top: 0;
+  margin-right: 0;
+}
+
+.logo-title {
+  margin-right: 16px;
+}
+.logo-title:last-child {
+  margin-right: 90px;
 }
 
 .nav a:active {
@@ -122,7 +122,7 @@ body {
 }
 
 .marg-left {
-  margin-top: 451px;
+  margin-left: 451px;
 }
 
 .search {
@@ -142,7 +142,7 @@ body {
   }
 
   .logo-title {
-    margin-top: 17px;
+    margin-bottom: 17px;
   }
 
   .text-header {
@@ -151,7 +151,7 @@ body {
 
   .marg-left {
     width: 100%;
-    margin-top: 0;
+    margin-left: 0;
   }
 
   .search {

@@ -60,15 +60,15 @@ body {
 }
 
 @mixin mb($mb) {
-    margin-top: $mb;
+    margin-bottom: $mb;
 }
 
 @mixin ml($ml) {
-    margin-top: $ml;
+    margin-left: $ml;
 }
 
 @mixin mr($mr) {
-    margin-top: $mr;
+    margin-right: $mr;
 }
 
 /*desktop*/

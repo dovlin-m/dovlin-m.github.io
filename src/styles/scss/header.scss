@@ -9,14 +9,6 @@
     @include al-items-center;
 }
 
-.logo-title {
-    @include mr(16px);
-  
-    &:last-child {
-      @include mr (90px);
-    }
-}
-
 .text-header {
     @include mr(24px);
 
@@ -33,6 +25,15 @@
     &:last-child {
         @include mr(0);
     }
+}
+
+.logo-title {
+    margin-right: 16px;
+
+    &:last-child {
+        @include mr( 90px);
+    }
+    
 }
 
 .nav {
