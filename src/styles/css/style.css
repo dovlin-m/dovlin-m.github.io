@@ -10,6 +10,7 @@
   font-family: "Roboto-Bold.ttf";
   src: url(../src/fonts/Roboto-Bold.ttf);
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -37,6 +38,7 @@ body {
 }
 
 /*desktop*/
+
 @media (min-width: 1240px) {
   h1 {
     font-size: 60px;
@@ -61,7 +63,9 @@ body {
     padding-right: 20px;
   }
 }
+
 /*mobile*/
+
 @media (min-width: 1240px) {
   h1 {
     font-size: 30px;
@@ -86,6 +90,7 @@ body {
     padding-right: 20px;
   }
 }
+
 .header {
   position: absolute;
   align-items: center;
@@ -106,6 +111,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .text-header:last-child {
   margin-right: 0;
 }
@@ -113,6 +119,7 @@ body {
 .logo-title {
   margin-right: 16px;
 }
+
 .logo-title:last-child {
   margin-right: 90px;
 }
