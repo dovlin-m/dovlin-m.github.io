@@ -10,13 +10,18 @@
   font-family: "Roboto-Bold.ttf";
   src: url(../src/fonts/Roboto-Bold.ttf);
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font-family: "Roboto-Regular" sans-serif;
+  font-family: Roboto-Regular, sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: #cacaca;
-  background: #08020d;
+  background: #08020D;
 }
 
 .position-rel {
@@ -27,10 +32,15 @@ body {
   position: absolute;
 }
 
+.flex {
+  display: flex;
+}
+
 /*desktop*/
 @media (min-width: 1240px) {
   h1 {
     font-size: 60px;
+    font-family: Roboto-Bold, sans-serif;
     line-height: 90px;
     font-weight: bold;
     text-transform: uppercase;
@@ -38,17 +48,24 @@ body {
 
   h2 {
     font-size: 38px;
+    font-family: Roboto-Bold, sans-serif;
     line-height: 57px;
     font-weight: bold;
     text-transform: uppercase;
   }
+
+  .container {
+    width: 1240px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
-
 /*mobile*/
-
 @media (min-width: 1240px) {
   h1 {
     font-size: 30px;
+    font-family: Roboto-Bold, sans-serif;
     line-height: 45px;
     font-weight: bold;
     text-transform: uppercase;
@@ -56,49 +73,90 @@ body {
 
   h2 {
     font-size: 18px;
+    font-family: Roboto-Bold, sans-serif;
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
   }
 
+  .container {
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
-.background-header {
-  background-image: url('../src/images/banner.png');
-  background-position: center;
-  background-size: cover;
-}
-
-.header-section {
+.header {
   position: absolute;
-  margin-top: 25px;
-  justify-content: space-between;
-  max-width: 1200px;
-  width: 100%;
-}
-
-.header-left {
-  display: flex;
-  flex-direction: row;
   align-items: center;
-}
-
-.container {
-  width: 1200;
-  padding: 0;
-  margin: 0 auto;
+  top: 25px;
 }
 
 .logo {
-  width: 24px;
-  height: 24px;
+  align-items: center;
 }
 
-.display-flex {
-  display: flex;
+.logo-title {
+  margin-top: 16px;
+}
+.logo-title:last-child {
+  margin-top: 90px;
 }
 
-.logo-music-box {
-  width: fit-content;
+.text-header {
+  margin-top: 24px;
+  padding-top: 3px;
+  color: #E0E0E0;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.text-header:last-child {
+  margin-top: 0;
+}
+
+.nav a:active {
+  color: #fff;
+}
+
+.marg-left {
+  margin-top: 451px;
+}
+
+.search {
+  min-width: 248px;
+  padding: 5px 10px 5px;
+  color: #757575;
+  background: #3C3B3D;
+  border: none;
+  border-radius: 50px;
+}
+
+@media (max-width: 1199px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 18px;
+  }
+
+  .logo-title {
+    margin-top: 17px;
+  }
+
+  .text-header {
+    line-height: 13px;
+  }
+
+  .marg-left {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .search {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
