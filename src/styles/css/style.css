@@ -10,6 +10,7 @@
   font-family: "Roboto-Bold.ttf";
   src: url(../src/fonts/Roboto-Bold.ttf);
 }
+
 body {
   font-family: "Roboto-Regular" sans-serif;
   font-size: 18px;
@@ -42,7 +43,9 @@ body {
     text-transform: uppercase;
   }
 }
+
 /*mobile*/
+
 @media (min-width: 1240px) {
   h1 {
     font-size: 30px;
@@ -57,9 +60,10 @@ body {
     font-weight: bold;
     text-transform: uppercase;
   }
+
 }
 .background-header {
-  background-image: url("../src/images/banner.png");
+  background-image: url('../src/images/banner.png');
   background-position: center;
   background-size: cover;
 }

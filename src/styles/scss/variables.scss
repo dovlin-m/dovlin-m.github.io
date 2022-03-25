@@ -6,3 +6,26 @@ $green: #34C176;
 $orange: #F89202;
 $purple: #5328A1;
 $red: #95390C;
+$white: #fff;
+$search-text: #757575;
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../src/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+	font-family: 'Roboto-Medium.ttf'; 
+	src: url(../src/fonts/Roboto-Medium.ttf); 
+}
+
+@font-face {
+	font-family: 'Roboto-Bold.ttf'; 
+	src: url(../src/fonts/Roboto-Bold.ttf); 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

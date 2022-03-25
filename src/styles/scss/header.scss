@@ -1,70 +1,84 @@
-@mixin background-header {
+.header {
+    @include position-abs;
+    @include al-items-center;
 
-    background-image: url('../src/images/banner.png');
-    background-position: center;
-    background-size: cover;
-}
-
-.background-header {
-
-    @include background-header;
-}
-
-@mixin section {
-    position: absolute;
-    margin-top: 25px;
-    justify-content: space-between;
-    max-width: 1200px;
-    width: 100%;
-}
-
-.header-section {
-    @include section;
-}
-
-@mixin header-left {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.header-left {
-    @include header-left;
-}
-
-@mixin container {
-
-    width: 1200;
-    padding: 0;
-    margin: 0 auto;
-}
-
-.container {
-    @include container;
-}
-
-@mixin logo { 
-    width: 24px;
-    height: 24px;
+    top: 25px;
 }
 
 .logo {
-    @include logo;
+    @include al-items-center;
 }
 
-@mixin d-flex {
-    display: flex;
+.logo-title {
+    @include mr(16px);
+  
+    &:last-child {
+      @include mr (90px);
+    }
 }
 
-.display-flex {
-    @include d-flex;
+.text-header {
+    @include mr(24px);
+
+    padding-top: 3px;
+
+    color: $gray;
+    font-size: 11px;
+    font-weight: bold;
+    @include line-height(16px);
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:last-child {
+        @include mr(0);
+    }
 }
 
-@mixin fit-cont {
-    width: fit-content;
+.nav {
+
+    a:active {
+        color: $white;
+    }
 }
 
-.logo-music-box {
-    @include fit-cont;
+.marg-left {
+    @include ml(451px)
+}
+
+.search {
+    min-width: 248px;
+    padding: 5px 10px 5px;
+
+    color: $search-text;
+
+    background: $dark;
+    border: none;
+    border-radius: 50px;
+}
+
+@media (max-width: 1199px) {
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 18px;
+    }
+
+    .logo-title {
+        @include mb(17px)
+    }
+
+    .text-header {
+        @include line-height(13px);
+    }
+
+    .marg-left {
+        width: 100%;
+        @include ml(0);
+    }
+
+    .search {
+        width: 100%;
+    }
 }

@@ -1,34 +1,31 @@
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url("../src/fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-	font-family: 'Roboto-Medium.ttf'; 
-	src: url(../src/fonts/Roboto-Medium.ttf); 
-}
-
-@font-face {
-	font-family: 'Roboto-Bold.ttf'; 
-	src: url(../src/fonts/Roboto-Bold.ttf); 
-}
-
 body {
 
-    font-family: 'Roboto-Regular' sans-serif;
+    font-family: Roboto-Regular, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     color: #cacaca;
-    background: #08020d;
+
+    background: $black;
 }
 
 @mixin heading($fz, $lh) {
     font-size: $fz;
+    font-family: Roboto-Bold, sans-serif;
     line-height: $lh;
     font-weight: bold;
     text-transform: uppercase;
 }
+
+@mixin container($wh) {
+    width: $wh;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
   
+@mixin line-height($lh) {
+    line-height: $lh;
+}
 
 @mixin position-rel {
     position: relative;
@@ -46,6 +43,34 @@ body {
     @include position-abs;
 }  
 
+@mixin d-flex {
+    display: flex;
+}
+
+.flex {
+    @include d-flex;
+}
+
+@mixin al-items-center {
+    align-items: center;
+}
+
+@mixin mt($mt) {
+    margin-top: $mt;
+}
+
+@mixin mb($mb) {
+    margin-top: $mb;
+}
+
+@mixin ml($ml) {
+    margin-top: $ml;
+}
+
+@mixin mr($mr) {
+    margin-top: $mr;
+}
+
 /*desktop*/
 
 @media (min-width: 1240px) {
@@ -58,6 +83,11 @@ body {
     h2 {
   
         @include heading(38px, 57px)
+    }
+
+    .container {
+
+        @include container(1240px)
     }
 
 }
@@ -74,6 +104,11 @@ body {
     h2 {
   
         @include heading(18px, 27px)
+    }
+
+    .container {
+
+        @include container(100%)
     }
 
 }
