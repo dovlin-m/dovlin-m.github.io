@@ -93,7 +93,7 @@ body {
     padding-right: 20px;
   }
 }
-.button {
+.btn {
   padding: 20px;
   color: #fff;
   text-transform: uppercase;
@@ -226,7 +226,7 @@ body {
   margin-right: 24px;
 }
 
-.button-green {
+.btn-green {
   width: 100%;
   background: #34C176;
   border: none;
@@ -242,6 +242,77 @@ body {
   .banner .margin-rigth-24 {
     margin-right: 0;
   }
+}
+.pricing-section {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.bg-free {
+  background: url("/src/images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standart {
+  background: url("/src/images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background: url("/src/images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing-item {
+  margin-right: 50px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1rem;
+}
+.pricing-item a {
+  color: #fff;
+  text-decoration: none;
+}
+.pricing-item h3 {
+  padding-bottom: 200px;
+  padding-top: 24px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: Roboto-Regular, sans-serif;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.pricing-item span {
+  line-height: 1em;
+}
+.pricing-item .price {
+  margin-right: 16px;
+  color: #fff;
+  font-size: 64px;
+}
+.pricing-item .rub {
+  padding-top: 8px;
+  font-size: 32px;
+}
+.pricing-item .pricing-value {
+  align-content: start;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.pricing-item {
+  margin-right: 50px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1rem;
+}
+.pricing-item a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
