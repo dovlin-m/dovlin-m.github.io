@@ -254,7 +254,7 @@ body {
   background-size: cover;
 }
 
-.bg-standart {
+.bg-standard {
   background: url("/src/images/subscribe_2.png");
   background-position: center;
   background-size: cover;
@@ -280,7 +280,7 @@ body {
   padding-bottom: 200px;
   padding-top: 24px;
   color: #fff;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 24px;
   font-family: Roboto-Regular, sans-serif;
   line-height: 36px;
@@ -294,25 +294,77 @@ body {
   color: #fff;
   font-size: 64px;
 }
-.pricing-item .rub {
+
+.rub {
   padding-top: 8px;
   font-size: 32px;
+  line-height: 32px;
+  color: #fff;
 }
-.pricing-item .pricing-value {
+
+.pricing-value {
   align-content: start;
   justify-content: center;
   margin-bottom: 40px;
 }
 
-.pricing-item {
-  margin-right: 50px;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1rem;
+.mr-0 {
+  margin-right: 0;
 }
-.pricing-item a {
+
+.btn-sub {
+  display: inline-block;
+  min-width: 318px;
+  font-size: 16px;
+  border: 1px solid #fff;
+}
+
+.pricing-footer {
+  max-width: 318px;
+  margin-top: 64px;
+  margin-bottom: 64px;
   color: #fff;
-  text-decoration: none;
+  font-size: 12.8px;
+  line-height: 1.5;
+}
+
+.sub-end {
+  color: #fff;
+  font-size: 16px;
+}
+
+.flex-set {
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1199px) {
+  .flex-set {
+    justify-content: center;
+  }
+
+  .pricing-item {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .pricing-item:last-child {
+    margin-bottom: 0;
+  }
+  .pricing-item h3 {
+    font-size: 16px;
+  }
+
+  .sub-form {
+    margin-bottom: 52px;
+  }
+}
+.sub-header {
+  margin-bottom: 45px;
+  color: #fff;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
