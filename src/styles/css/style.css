@@ -511,7 +511,9 @@ body {
 }
 
 .border {
-  border-bottom: 2px solid #CACACA;
+  border: 1px solid #CACACA;
+  box-sizing: border-box;
+  border-radius: 0px;
 }
 
 .marker {
@@ -519,8 +521,8 @@ body {
 }
 
 .top-section {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 62px;
+  padding-bottom: 72px;
 }
 
 .column-footer {
