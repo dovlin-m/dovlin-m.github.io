@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Music Box</title>
+    <title>Music Box <dovlin-m></dovlin-m></title>
 
     <link rel="stylesheet" href="styles/css/style.css">
 </head>
 <body>
-
+    <header class="container position-rel">
+        <nav class="flex header">
+            <div class="flex logo">
+              <img src="../src/images/logo.svg" alt="logo" height="24" class="logo-title">
+              <p class="logo-title text-header">Music box</p>
+            </div>
+            <div class="flex nav">
+              <a href="#page-description" class="text-header">Главная</a>
+              <a href="#" class="text-header">Каталог</a>
+              <a href="artist.html" class="text-header focus">Исполнители</a>
+              <a href="#"class="text-header">Контакты</a>
+            </div>
+            <div class="marg-left flex">
+              <input type="text" placeholder="ПОИСК..." class="search">
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section>
+            <section id="page-discription" class="bg-artist">
+                <div class="container">
+                  <h1 class="artist-h1">MORTEN HARKET</h1>
+                  <p class="mb-48">24 875 поклонников</p>
+                  <form class="flex wrap">
+                    <button class="btn flex btn-purple mr-24 btn-artist" type="submit">
+                        <img class="svg-img" height="20px" src="images/play-button.svg" alt="">
+                        Микс
+                    </button>
+                    <button class="btn flex btn-red btn-artist" type="submit">
+                        <img class="svg-img" height="20px" src="images/heart.svg" alt="">
+                        В избранное
+                    </button>
+                  </form>
+                </div>
+        </section>
+    </main>
 </body>
 </html>

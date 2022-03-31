@@ -30,6 +30,8 @@
 .logo-title {
     margin-right: 16px;
 
+    color: $white;
+
     &:last-child {
         @include mr( 90px);
     }
