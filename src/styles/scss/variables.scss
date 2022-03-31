@@ -10,19 +10,12 @@ $white: #fff;
 $search-text: #757575;
 
 @font-face {
-    font-family: 'Roboto-Regular';
-    src: url("../src/fonts/Roboto-Regular.ttf");
-}
+    font-family: "/src/fonts/";
+    font-weight: "Roboto";
+    font-style: normal;
+    src: url("/src/fonts/.ttf");
+  }
 
-@font-face {
-	font-family: 'Roboto-Medium.ttf'; 
-	src: url(../src/fonts/Roboto-Medium.ttf); 
-}
-
-@font-face {
-	font-family: 'Roboto-Bold.ttf'; 
-	src: url(../src/fonts/Roboto-Bold.ttf); 
-}
 
 * {
     box-sizing: border-box;

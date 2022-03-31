@@ -1,14 +1,8 @@
 @font-face {
-  font-family: "Roboto-Regular";
-  src: url("../src/fonts/Roboto-Regular.ttf");
-}
-@font-face {
-  font-family: "Roboto-Medium.ttf";
-  src: url(../src/fonts/Roboto-Medium.ttf);
-}
-@font-face {
-  font-family: "Roboto-Bold.ttf";
-  src: url(../src/fonts/Roboto-Bold.ttf);
+  font-family: "/src/fonts/";
+  font-weight: "Roboto";
+  font-style: normal;
+  src: url("/src/fonts/.ttf");
 }
 * {
   box-sizing: border-box;
@@ -17,7 +11,7 @@
 }
 
 body {
-  font-family: Roboto-Regular, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: #cacaca;
@@ -47,7 +41,7 @@ body {
 @media (min-width: 1240px) {
   h1 {
     font-size: 60px;
-    font-family: Roboto-Bold, sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 90px;
     font-weight: bold;
     text-transform: uppercase;
@@ -56,7 +50,7 @@ body {
 
   h2 {
     font-size: 38px;
-    font-family: Roboto-Bold, sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 57px;
     font-weight: bold;
     text-transform: uppercase;
@@ -74,7 +68,7 @@ body {
 @media (max-width: 1199px) {
   h1 {
     font-size: 30px;
-    font-family: Roboto-Bold, sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 45px;
     font-weight: bold;
     text-transform: uppercase;
@@ -83,7 +77,7 @@ body {
 
   h2 {
     font-size: 18px;
-    font-family: Roboto-Bold, sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
@@ -748,6 +742,7 @@ body {
   font-size: 17px;
   text-transform: capitalize;
   color: #fff;
+  letter-spacing: -0.6px;
 }
 .disco-info p {
   font-size: 16px;

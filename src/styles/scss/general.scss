@@ -1,6 +1,6 @@
 body {
 
-    font-family: Roboto-Regular, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 1.5;
     color: #cacaca;
@@ -10,7 +10,7 @@ body {
 
 @mixin heading($fz, $lh) {
     font-size: $fz;
-    font-family: Roboto-Bold, sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: $lh;
     font-weight: bold;
     text-transform: uppercase;
