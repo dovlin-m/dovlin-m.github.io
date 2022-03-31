@@ -678,10 +678,6 @@ body {
   text-align: left;
 }
 
-.track-main-flex {
-  flex-wrap: wrap;
-}
-
 .track-secondary-flex {
   align-items: center;
   justify-content: space-between;
