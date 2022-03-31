@@ -4,7 +4,7 @@
 }
 
 .border {
-    border-bottom: 1px solid $dark-gray;
+    border-bottom: 2px solid $dark-gray;
 }
 
 .marker {
@@ -12,8 +12,8 @@
 }
 
 .top-section {
-    padding-top: 62px;
-    padding-bottom: 72px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 .column-footer {
@@ -32,11 +32,11 @@
 .footer-h2 {
     margin-bottom: 15px;
 
-    font-family: 'Roboto-Bold', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 27px;
     color: $white;
 
     text-transform: uppercase;
@@ -46,9 +46,11 @@
 
 .footer-a {
     color: $dark-gray;
+    font-style: normal;
     font-size: 16px;
-    font-family: Roboto-Regular, sans-serif;
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
+    line-height: 24px;
 }
 
 .footer-p {
