@@ -680,7 +680,6 @@ body {
 
 .track-main-flex {
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .track-secondary-flex {
@@ -688,6 +687,7 @@ body {
   justify-content: space-between;
   min-width: 551px;
   margin-bottom: 25px;
+  margin-right: 49px;
 }
 
 .track-img {
@@ -703,6 +703,7 @@ body {
   font-size: 12.8px;
   text-transform: uppercase;
   color: #fff;
+  letter-spacing: -0.4px;
 }
 .track-info p {
   color: #CACACA;
