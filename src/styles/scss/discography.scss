@@ -29,11 +29,19 @@
       width: 137px;
       height: 137px;
     }
+
+    .disco-col {
+
+        &:nth-child(2n) {
+            margin-right: 0;
+        }
+    }
   
     .disco-info {
 
         h3 {
             max-width: 137px;
+            letter-spacing: -1px;
         }
         
         p {
