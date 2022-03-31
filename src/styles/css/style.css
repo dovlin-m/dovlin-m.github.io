@@ -549,6 +549,10 @@ body {
   min-width: 270px;
 }
 
+.social-links {
+  vertical-align: middle;
+}
+
 .footer-a {
   color: #CACACA;
   font-style: normal;
@@ -596,7 +600,7 @@ body {
   }
 
   .top-section {
-    padding-bottom: 76px;
+    padding-bottom: 75px;
   }
 
   .mobile-width {
