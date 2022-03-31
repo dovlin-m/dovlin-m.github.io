@@ -745,7 +745,7 @@ body {
 }
 
 .disco-info h3 {
-  font-size: 18px;
+  font-size: 17px;
   text-transform: capitalize;
   color: #fff;
 }
@@ -760,10 +760,10 @@ body {
   }
 
   .disco-info h3 {
-    max-width: 137px;
+    max-width: 138px;
   }
   .disco-info p {
-    max-width: 137px;
+    max-width: 138px;
   }
 }
 .similar {
