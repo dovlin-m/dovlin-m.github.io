@@ -1,75 +1,78 @@
 .pricing-section {
-  padding-top: 100px;
+    padding-top: 100px;
 
-  text-align: center;
+    text-align: center;
 }
 
 .bg-free {
-  background: url("/src/images/subscribe_1.png");
-  background-position: center;
-  background-size: cover;
+    background: url("/src/images/subscribe_1.png");
+    background-position: center;
+    background-size: cover;
 }
 
 .bg-standard {
-  background: url("/src/images/subscribe_2.png");
-  background-position: center;
-  background-size: cover;
+    background: url("/src/images/subscribe_2.png");
+    background-position: center;
+    background-size: cover;
 }
 
 .bg-premium {
-  background: url("/src/images/subscribe_3.png");
-  background-position: center;
-  background-size: cover;
+    background: url("/src/images/subscribe_3.png");
+    background-position: center;
+    background-size: cover;
 }
 
 .pricing-item {
-  margin-right: 50px;
-  padding-top: 24px;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
 
-  border-radius: 1rem;
+    margin-right: 50px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 24px;
+  
+    border-radius: 1rem;
+  
+    a {
+      color: $white;
+      text-decoration: none;
+    }
 
-  a {
-    color: $white;
-    text-decoration: none;
-  }
+    h3 {
 
-  h3 {
-    color: $white;
-    font-weight: 400;
-    font-size: 24px;
-    font-family: Roboto, sans-serif;
-    line-height: 36px;
-    text-transform: uppercase;
-  }
+        color: $white;
+        font-weight: 400;
+        font-size: 24px;
+        font-family: "Roboto", sans-serif;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
 
-  span {
-    line-height: 1em;
-  }
+    span {
+        line-height: 1em;
+    }
 
-  .price {
-    margin-right: 16px;
+    .price {
+        margin-right: 16px;
+      
+        color: $white;
+        font-size: 64px;
+      }
 
-    color: $white;
-    font-size: 64px;
-  }
 }
 
 .rub {
-  color: $white;
-
   padding-top: 8px;
 
   font-size: 32px;
   line-height: 32px;
+
+  color: $white;
 }
 
 .pricing-value {
   align-content: start;
   justify-content: center;
+  margin-bottom: 43px;
   margin-top: 200px;
-  margin-bottom: 38px;
 }
 
 .mr-0 {
@@ -86,6 +89,7 @@
 }
 
 .pricing-footer {
+
   max-width: 318px;
   min-height: 57px;
   margin-top: 64px;
@@ -98,8 +102,10 @@
 
 .sub-end {
   color: $white;
-  min-height: 47px;
   font-size: 16px;
+  
+
+  min-height: 47px;
 }
 
 .flex-set {
@@ -140,9 +146,10 @@
     }
 
     h3 {
-      font-weight: 400;
+
       font-size: 16px;
       line-height: 24px;
+      font-weight: 400;
       text-transform: uppercase;
     }
   }
@@ -152,9 +159,14 @@
   }
 }
 
+.pricing-value {
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+
 .sub-header {
-  color: $white;
   margin-bottom: 46px;
+  color: $white;
 }
 
 .wrap {
