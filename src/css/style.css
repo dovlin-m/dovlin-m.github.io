@@ -717,8 +717,8 @@ body {
   min-width: 200px;
   max-height: 62px;
   font-size: 12.8px;
-  border: none;
   text-transform: uppercase;
+  border: none;
 }
 
 .svg-img {
