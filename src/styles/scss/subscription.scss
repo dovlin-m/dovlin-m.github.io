@@ -72,7 +72,7 @@
 .pricing-value {
   align-content: start;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 43px;
 }
 
 .mr-0 {
@@ -103,6 +103,7 @@
 .sub-end {
   color: $white;
   font-size: 16px;
+  min-height: 64px;
 }
 
 .flex-set {
@@ -132,7 +133,7 @@
     margin-right: 0;
     margin-bottom: 50px;
 
-    padding-top: 24px;
+    padding-top: 16px;
 
     &:last-child {
       margin-bottom: 0;
@@ -150,6 +151,14 @@
   .sub-form {
     margin-bottom: 52px;
   }
+}
+
+.sub-end {
+  min-height: 120px;
+}
+
+.pricing-value {
+  margin-bottom: 40px;
 }
 
 .sub-header {
