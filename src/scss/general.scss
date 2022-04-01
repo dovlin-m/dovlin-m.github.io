@@ -9,8 +9,8 @@ body {
 }
 
 @mixin heading($fz, $lh) {
-  font-size: $fz;
   font-weight: bold;
+  font-size: $fz;
   font-family: Roboto, sans-serif;
   line-height: $lh;
   text-align: center;
