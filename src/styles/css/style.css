@@ -480,7 +480,11 @@ body {
 }
 
 .jc-sa {
-  justify-content: space-around;
+  justify-content: unset;
+}
+
+.mr-144 {
+  margin-right: 144px;
 }
 
 .mb-48 {
@@ -501,10 +505,6 @@ body {
   background-color: #95390C;
   border: none;
   border-radius: 32px;
-}
-
-.mr-144 {
-  margin-left: 144px;
 }
 
 .mb-16 {
@@ -532,6 +532,10 @@ body {
     margin-bottom: 0;
   }
 
+  .mr-144 {
+    margin-right: 0;
+  }
+
   .mobile-img {
     max-width: 100%;
   }
@@ -541,7 +545,7 @@ body {
   }
 
   .text-app {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
   }
 }
 .bg-gradient {
