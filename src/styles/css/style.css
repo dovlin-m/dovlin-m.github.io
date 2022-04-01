@@ -269,6 +269,7 @@ body {
   margin-right: 50px;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
+  padding-top: 24px;
   border-radius: 1rem;
 }
 .pricing-item a {
@@ -277,7 +278,6 @@ body {
 }
 .pricing-item h3 {
   padding-bottom: 200px;
-  padding-top: 24px;
   color: #fff;
   font-weight: 400;
   font-size: 24px;
@@ -320,6 +320,7 @@ body {
 
 .pricing-footer {
   max-width: 318px;
+  min-height: 57px;
   margin-top: 64px;
   margin-bottom: 64px;
   color: #fff;
@@ -342,9 +343,23 @@ body {
     justify-content: center;
   }
 
+  .sub-header {
+    margin-bottom: 46px;
+  }
+
+  .btn-sub {
+    min-width: 326px;
+  }
+
+  .pricing-footer {
+    min-width: 326px;
+    min-height: 57px;
+  }
+
   .pricing-item {
     margin-right: 0;
     margin-bottom: 50px;
+    padding-top: 24px;
   }
   .pricing-item:last-child {
     margin-bottom: 0;

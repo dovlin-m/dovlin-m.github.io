@@ -27,6 +27,7 @@
     margin-right: 50px;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+    padding-top: 24px;
   
     border-radius: 1rem;
   
@@ -37,7 +38,6 @@
 
     h3 {
         padding-bottom: 200px;
-        padding-top: 24px;
 
         color: $white;
         font-weight: 400;
@@ -91,6 +91,7 @@
 .pricing-footer {
 
   max-width: 318px;
+  min-height: 57px;
   margin-top: 64px;
   margin-bottom: 64px;
 
@@ -114,9 +115,24 @@
     justify-content: center;
   }
 
+  .sub-header {
+    margin-bottom: 46px;
+  }
+
+  .btn-sub {
+    min-width: 326px;
+  }
+
+  .pricing-footer {
+    min-width: 326px;
+    min-height: 57px;
+  }
+
   .pricing-item {
     margin-right: 0;
     margin-bottom: 50px;
+
+    padding-top: 24px;
 
     &:last-child {
       margin-bottom: 0;
