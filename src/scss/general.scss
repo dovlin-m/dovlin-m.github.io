@@ -10,8 +10,8 @@ body {
 
 @mixin heading($fz, $lh) {
   font-size: $fz;
-  font-family: Roboto, sans-serif;
   font-weight: bold;
+  font-family: Roboto, sans-serif;
   line-height: $lh;
   text-align: center;
   text-transform: uppercase;
@@ -81,36 +81,30 @@ body {
 @media (min-width: 1240px) {
   h1 {
     @include heading(60px, 90px);
-
   }
 
   h2 {
     @include heading(38px, 57px);
-
   }
 
   .container {
     @include container(1240px);
-
   }
 }
-  
+
 /* mobile */
 
 @media (max-width: 1199px) {
   h1 {
     @include heading(30px, 45px);
-
   }
 
   h2 {
     @include heading(18px, 27px);
-
   }
 
   .container {
     @include container(100%);
-
   }
 }
 

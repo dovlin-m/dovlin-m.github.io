@@ -35,7 +35,6 @@
 
   &:last-child {
     @include mr( 90px);
-
   }
 }
 
@@ -47,12 +46,11 @@
 
 .marg-left {
   @include ml(451px);
-
 }
 
 .search {
   min-width: 248px;
-  padding: 5px 10px 5px;
+  padding: 5px 10px;
 
   color: $search-text;
 
@@ -64,7 +62,7 @@
 @media (max-width: 1199px) {
   .mb-20 {
     margin-bottom: 20px;
-}
+  }
 
   .nav {
     flex-direction: column;
@@ -86,7 +84,6 @@
 
   .logo-title {
     @include mb(17px);
-
   }
 
   .text-header {
@@ -97,8 +94,8 @@
 
   .marg-left {
     width: 100%;
-    @include ml(0);
 
+    @include ml(0);
   }
 
   .search {
