@@ -11,10 +11,10 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  color: #CACACA;
   font-size: 18px;
+  font-family: Roboto, sans-serif;
   line-height: 1.5;
-  color: #cacaca;
   background: #08020D;
 }
 
@@ -37,7 +37,7 @@ body {
   display: flex;
 }
 
-/*desktop*/
+/* desktop */
 @media (min-width: 1240px) {
   h1 {
     font-size: 60px;
@@ -64,7 +64,7 @@ body {
     padding-right: 20px;
   }
 }
-/*mobile*/
+/* mobile */
 @media (max-width: 1199px) {
   h1 {
     font-size: 30px;
@@ -225,9 +225,9 @@ body {
 }
 .banner-sec::placeholder {
   color: #fff;
-  font-size: 14px;
   font-weight: normal;
-  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
 .margin-rigth-24 {
@@ -289,7 +289,7 @@ body {
   color: #fff;
   font-weight: 400;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 36px;
   text-transform: uppercase;
 }
@@ -563,8 +563,8 @@ body {
   }
 }
 .bg-gradient {
-  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   font-size: 16px;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
 .border {
@@ -595,15 +595,15 @@ body {
 
 .footer-h2 {
   margin-bottom: 15px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  min-width: 270px;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
+  font-style: normal;
   font-size: 18px;
   line-height: 27px;
+  text-align: left;
   color: #fff;
   text-transform: uppercase;
-  text-align: left;
-  min-width: 270px;
 }
 
 .social-links {
@@ -612,17 +612,17 @@ body {
 
 .footer-a {
   color: #CACACA;
-  font-style: normal;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
+  font-style: normal;
+  font-family: Roboto, sans-serif;
   line-height: 24px;
+  text-decoration: none;
 }
 
 .footer-p {
   color: #CACACA;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 24px;
 }
 
@@ -804,8 +804,8 @@ body {
 
 .disco-info h3 {
   font-size: 18px;
-  text-transform: capitalize;
   color: #fff;
+  text-transform: capitalize;
 }
 .disco-info p {
   font-size: 16px;
@@ -840,7 +840,7 @@ body {
 
 .similar-h2 {
   text-align: left;
-  font-family: "Roboto-Regular", sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 38px;

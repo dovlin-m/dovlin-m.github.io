@@ -1,104 +1,101 @@
 .header {
-    @include position-abs;
-    @include al-items-center;
+  @include position-abs;
+  @include al-items-center;
 
-    top: 25px;
+  top: 25px;
 }
 
 .logo {
-    @include al-items-center;
+  @include al-items-center;
 }
 
 .text-header {
-    @include mr(24px);
+  @include mr(24px);
 
-    padding-top: 3px;
+  padding-top: 3px;
 
-    color: $gray;
-    font-size: 11px;
-    font-weight: bold;
-    @include line-height(16px);
+  color: $gray;
+  font-size: 11px;
+  font-weight: bold;
+  @include line-height(16px);
 
-    text-decoration: none;
-    text-transform: uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
 
-    &:last-child {
-        @include mr(0);
-    }
+  &:last-child {
+    @include mr(0);
+  }
 }
 
 .logo-title {
-    margin-right: 16px;
+  margin-right: 16px;
 
-    color: $white;
+  color: $white;
 
-    &:last-child {
-        @include mr( 90px);
-    }
-    
+  &:last-child {
+    @include mr( 90px);
+  } 
 }
 
 .nav {
-
-    a:active {
-        color: $white;
-    }
+  a:active {
+    color: $white;
+  }
 }
 
 .marg-left {
-    @include ml(451px)
+  @include ml(451px)
 }
 
 .search {
-    min-width: 248px;
-    padding: 5px 10px 5px;
+  min-width: 248px;
+  padding: 5px 10px 5px;
 
-    color: $search-text;
+  color: $search-text;
 
-    background: $dark;
-    border: none;
-    border-radius: 50px;
+  background: $dark;
+  border: none;
+  border-radius: 50px;
 }
 
 @media (max-width: 1199px) {
+  .mb-20 {
+    margin-bottom: 20px;
+}
 
-    .mb-20 {
-        margin-bottom: 20px;
-    }
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
 
-    .nav {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 12px;
-    }
+  .mh-24 {
+    max-height: 24px;
+  }
 
-    .mh-24 {
-        max-height: 24px;
-    }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
 
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
+    left: 20px;
+    right: 20px;
+  }
 
-        left: 20px;
-        right: 20px;
-    }
+  .logo-title {
+    @include mb(17px)
+  }
 
-    .logo-title {
-        @include mb(17px)
-    }
+  .text-header {
+     @include line-height(13px);
+    margin-right: 0;
+  }
 
-    .text-header {
-        @include line-height(13px);
-        margin-right: 0;
-    }
+  .marg-left {
+    width: 100%;
+    @include ml(0);
+  }
 
-    .marg-left {
-        width: 100%;
-        @include ml(0);
-    }
-
-    .search {
-        width: 100%;
-    }
+  .search {
+    width: 100%;
+  }
 }

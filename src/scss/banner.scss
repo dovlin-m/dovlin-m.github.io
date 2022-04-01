@@ -1,80 +1,78 @@
 .banner {
-    padding-top: 200px;
-    padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
-    background: url("/src/images/banner.png");
-    background-position: center;
-    background-size: cover;
+  background: url("/src/images/banner.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .banner-sec {
+  color: $white;
+  text-align: center;
+
+  h2 {
+    @include mb(31px);
+  }
+
+  p {
+    @include mb(17px);
+
+    font-size: 16px;
+  }
+
+  .flex-form {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 570px;
+    margin: auto;
+  }
+
+  .form {
+    flex: 1 1 0;
+    min-width: 270px;
+    min-height: 50px;
+    @include mb (1.5rem);
+    padding-left: 20px;
+
+    background: transparent;
+    border: 2px solid $dark-gray;
+    border-radius: 3px;
+  }
+
+  &::placeholder {
     color: $white;
-    text-align: center;
-
-    h2 {
-        @include mb(31px);
-    }
-
-    p {
-        @include mb(17px);
-
-        font-size: 16px;
-    }
-
-    .flex-form {
-        flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 570px;
-        margin: auto;
-    }
-
-    .form {
-        flex: 1 1 0;
-        min-width: 270px;
-        min-height: 50px;
-        @include mb(1.5rem);
-        padding-left: 20px;
-
-        background: transparent;
-        border: 2px solid $dark-gray;
-        border-radius: 3px;
-    }
-
-    &::placeholder {
-        color: $white;
-        font-size: 14px;
-        font-weight: normal;
-        font-family: 'Roboto-Regular', sans-serif;
-    }
-
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
 }
 
 .margin-rigth-24 {
-    @include mr(24px);
+  @include mr(24px);
 }
 
 .btn-green {
-    width: 100%;
+  width: 100%;
 
-    background: $green;
-    border: none;
+  background: $green;
+  border: none;
 }
 
 @media (max-width: 1199px) {
-    
-    .banner {
 
-        h1 {
-            @include mt(48px);
-        }
+  .banner {
 
-        h2 {
-            @include mb(16px);
-        }
-
-        .margin-rigth-24 {
-            @include mr(0);
-        }
-
+    h1 {
+      @include mt(48px);
     }
+
+    h2 {
+      @include mb(16px);
+    }
+
+    .margin-rigth-24 {
+      @include mr(0);
+    }
+  }
 }

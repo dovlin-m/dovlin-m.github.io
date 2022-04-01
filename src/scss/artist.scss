@@ -14,7 +14,7 @@
 .bg-artist {
   padding-top: 200px;
   padding-bottom: 200px;
-  
+
   background-image: url("/src/images/Morten\ Harket.png");
   background-position: center;
   background-size: cover;
@@ -54,7 +54,7 @@
   filter: invert(100%);
 }
 
-@media (max-width: 1199px) {
+@media(max-width: 1199px) {
 
   .btn-purple {
     margin-bottom: 24px;

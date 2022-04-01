@@ -1,129 +1,119 @@
 body {
 
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #cacaca;
+  color: $dark-gray;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
 
-    background: $black;
+  background: $black;
 }
 
 @mixin heading($fz, $lh) {
-    font-size: $fz;
-    font-family: "Roboto", sans-serif;
-    line-height: $lh;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
+  font-size: $fz;
+  font-family: "Roboto", sans-serif;
+  line-height: $lh;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 @mixin container($wh) {
-    width: $wh;
-    margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+  width: $wh;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container {
-    @include container(1240px);
+  @include container(1240px);
 }
-  
+
 @mixin line-height($lh) {
-    line-height: $lh;
+  line-height: $lh;
 }
 
 @mixin position-rel {
-    position: relative;
+  position: relative;
 }
 
 .position-rel {
-    @include position-rel;
+  @include position-rel;
 }
 
 @mixin position-abs {
-    position: absolute;
+  position: absolute;
 }
 
 .position-abs {
-    @include position-abs;
+  @include position-abs;
 }  
 
 @mixin d-flex {
-    display: flex;
+  display: flex;
 }
 
 .flex {
-    @include d-flex;
+  @include d-flex;
 }
 
 @mixin al-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 @mixin mt($mt) {
-    margin-top: $mt;
+  margin-top: $mt;
 }
 
 @mixin mb($mb) {
-    margin-bottom: $mb;
+  margin-bottom: $mb;
 }
 
 @mixin ml($ml) {
-    margin-left: $ml;
+  margin-left: $ml;
 }
 
 @mixin mr($mr) {
-    margin-right: $mr;
+  margin-right: $mr;
 }
 
-/*desktop*/
+/* desktop */
 
 @media (min-width: 1240px) {
-  
-    h1 {
-  
-        @include heading(60px, 90px)
-    }
-  
-    h2 {
-  
-        @include heading(38px, 57px)
-    }
+  h1 {
+    @include heading(60px, 90px)
+  }
 
-    .container {
+  h2 {
+    @include heading(38px, 57px)
+  }
 
-        @include container(1240px)
-    }
-
+  .container {
+    @include container(1240px)
+  }
 }
   
-/*mobile*/
+/* mobile */
 
 @media (max-width: 1199px) {
-  
-    h1 {
-  
-        @include heading(30px, 45px)
-    }
-  
-    h2 {
-  
-        @include heading(18px, 27px)
-    }
+  h1 {
+    @include heading(30px, 45px)
+  }
 
-    .container {
+  h2 {
+    @include heading(18px, 27px)
+  }
 
-        @include container(100%)
-    }
-
+  .container {
+    @include container(100%)
+  }
 }
 
 .btn {
-    padding: 20px 30px;
+  padding: 20px 30px;
 
-    color: $white;
-    text-transform: uppercase;
-    text-decoration: none;
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
 
-    border-radius: 5px;
+  border-radius: 5px;
 }

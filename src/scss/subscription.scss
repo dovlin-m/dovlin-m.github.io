@@ -1,62 +1,59 @@
 .pricing-section {
-    padding-top: 100px;
+  padding-top: 100px;
 
-    text-align: center;
+  text-align: center;
 }
 
 .bg-free {
-    background: url("/src/images/subscribe_1.png");
-    background-position: center;
-    background-size: cover;
+  background: url("/src/images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-standard {
-    background: url("/src/images/subscribe_2.png");
-    background-position: center;
-    background-size: cover;
+  background: url("/src/images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-premium {
-    background: url("/src/images/subscribe_3.png");
-    background-position: center;
-    background-size: cover;
+  background: url("/src/images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .pricing-item {
+  margin-right: 50px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 24px;
 
-    margin-right: 50px;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    padding-top: 24px;
-  
-    border-radius: 1rem;
-  
-    a {
-      color: $white;
-      text-decoration: none;
-    }
+  border-radius: 1rem;
 
-    h3 {
+  a {
+    color: $white;
+    text-decoration: none;
+  }
 
-        color: $white;
-        font-weight: 400;
-        font-size: 24px;
-        font-family: "Roboto", sans-serif;
-        line-height: 36px;
-        text-transform: uppercase;
-    }
+  h3 {
+    color: $white;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
 
-    span {
-        line-height: 1em;
-    }
+  span {
+    line-height: 1em;
+  }
 
-    .price {
-        margin-right: 16px;
-      
-        color: $white;
-        font-size: 64px;
-      }
+  .price {
+    margin-right: 16px;
 
+    color: $white;
+    font-size: 64px;
+  }
 }
 
 .rub {
@@ -89,7 +86,6 @@
 }
 
 .pricing-footer {
-
   max-width: 318px;
   min-height: 57px;
   margin-top: 64px;
@@ -103,7 +99,6 @@
 .sub-end {
   color: $white;
   font-size: 16px;
-  
 
   min-height: 47px;
 }

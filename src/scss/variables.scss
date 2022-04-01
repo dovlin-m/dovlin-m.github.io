@@ -10,15 +10,14 @@ $white: #fff;
 $search-text: #757575;
 
 @font-face {
-    font-family: "/src/fonts/";
-    font-weight: "Roboto";
-    font-style: normal;
-    src: url("/src/fonts/.ttf");
-  }
-
+  font-family: "/src/fonts/";
+  font-weight: "Roboto";
+  font-style: normal;
+  src: url("/src/fonts/.ttf");
+}
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
