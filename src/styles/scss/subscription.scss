@@ -103,6 +103,7 @@
 .sub-end {
   color: $white;
   font-size: 16px;
+  max-height: 64px;
   min-height: 64px;
 }
 
@@ -117,7 +118,7 @@
   }
 
   .sub-header {
-    margin-bottom: 46px;
+    margin-bottom: 45px;
   }
 
   .btn-sub {
@@ -162,7 +163,7 @@
 }
 
 .sub-header {
-  margin-bottom: 45px;
+  margin-bottom: 46px;
   color: $white;
 }
 
