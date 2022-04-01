@@ -8,21 +8,20 @@
 }
 
 .similar-h2 {
-  text-align: left;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 38px;
+  color: $white;
 
   margin-bottom: 48px;
 
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  text-align: left;
   text-transform: uppercase;
-
-  color: $white;
 }
 
 @media (max-width: 1199px) {
   .similar-h2 {
     font-size: 18px;
-  }   
+  }
 }

@@ -32,6 +32,7 @@
     flex: 1 1 0;
     min-width: 270px;
     min-height: 50px;
+
     @include mb (1.5rem);
     padding-left: 20px;
 
@@ -44,7 +45,7 @@
     color: $white;
     font-weight: normal;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
   }
 }
 
@@ -60,9 +61,7 @@
 }
 
 @media (max-width: 1199px) {
-
   .banner {
-
     h1 {
       @include mt(48px);
     }

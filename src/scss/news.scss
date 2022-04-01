@@ -3,8 +3,8 @@
 }
 
 .news-header {
-  margin-bottom: 48px;
   color: $white;
+  margin-bottom: 48px;
 }
 
 .news-item {
@@ -23,20 +23,20 @@
 }
 
 .news-h3 {
+  color: $white;
+
   margin-bottom: 30px;
 
   font-weight: 400;
   font-size: 30px;
   line-height: 1.5;
   text-transform: capitalize;
-
-  color: $white;
 }
 
 .news-p {
   max-width: 575px;
   margin-bottom: 24px;
-  
+
   font-size: 16px;
 }
 
@@ -52,13 +52,13 @@
 }
 
 .btn-news {
+  color: $dark-gray;
   display: inline-block;
   padding: 16px 30px;
 
   font-size: 12px;
 
   border: 1px solid $white;
-  color: $dark-gray;
 }
 
 .mb-0 {
@@ -86,5 +86,5 @@
   .news-img {
     max-width: 100%;
     margin-bottom: 50px;
-  } 
+  }
 }

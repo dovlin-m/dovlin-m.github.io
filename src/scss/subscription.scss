@@ -24,9 +24,9 @@
 
 .pricing-item {
   margin-right: 50px;
+  padding-top: 24px;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  padding-top: 24px;
 
   border-radius: 1rem;
 
@@ -57,19 +57,19 @@
 }
 
 .rub {
+  color: $white;
+
   padding-top: 8px;
 
   font-size: 32px;
   line-height: 32px;
-
-  color: $white;
 }
 
 .pricing-value {
   align-content: start;
   justify-content: center;
-  margin-bottom: 43px;
   margin-top: 200px;
+  margin-bottom: 43px;
 }
 
 .mr-0 {
@@ -98,9 +98,8 @@
 
 .sub-end {
   color: $white;
-  font-size: 16px;
-
   min-height: 47px;
+  font-size: 16px;
 }
 
 .flex-set {
@@ -141,10 +140,9 @@
     }
 
     h3 {
-
+      font-weight: 400;
       font-size: 16px;
       line-height: 24px;
-      font-weight: 400;
       text-transform: uppercase;
     }
   }
@@ -154,14 +152,9 @@
   }
 }
 
-.pricing-value {
-  margin-top: 200px;
-  margin-bottom: 40px;
-}
-
 .sub-header {
-  margin-bottom: 46px;
   color: $white;
+  margin-bottom: 46px;
 }
 
 .wrap {

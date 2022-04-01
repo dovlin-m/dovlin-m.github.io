@@ -10,18 +10,18 @@ body {
 
 @mixin heading($fz, $lh) {
   font-size: $fz;
-  font-family: "Roboto", sans-serif;
-  line-height: $lh;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
-  text-transform: uppercase;
+  line-height: $lh;
   text-align: center;
+  text-transform: uppercase;
 }
 
 @mixin container($wh) {
   width: $wh;
   margin: auto;
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 .container {
@@ -46,7 +46,7 @@ body {
 
 .position-abs {
   @include position-abs;
-}  
+}
 
 @mixin d-flex {
   display: flex;
@@ -80,15 +80,18 @@ body {
 
 @media (min-width: 1240px) {
   h1 {
-    @include heading(60px, 90px)
+    @include heading(60px, 90px);
+
   }
 
   h2 {
-    @include heading(38px, 57px)
+    @include heading(38px, 57px);
+
   }
 
   .container {
-    @include container(1240px)
+    @include container(1240px);
+
   }
 }
   
@@ -96,15 +99,18 @@ body {
 
 @media (max-width: 1199px) {
   h1 {
-    @include heading(30px, 45px)
+    @include heading(30px, 45px);
+
   }
 
   h2 {
-    @include heading(18px, 27px)
+    @include heading(18px, 27px);
+
   }
 
   .container {
-    @include container(100%)
+    @include container(100%);
+
   }
 }
 

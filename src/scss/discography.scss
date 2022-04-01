@@ -1,6 +1,6 @@
 .disco-col {
   flex-direction: column;
-  
+
   margin-right: 50px;
   margin-bottom: 25px;
 }
@@ -13,8 +13,8 @@
 
 .disco-info {
   h3 {
-    font-size: 18px;
     color: $white;
+    font-size: 18px;
     text-transform: capitalize;
   }
 
@@ -31,7 +31,7 @@
 
   .disco-col {
     &:nth-child(2n) {
-        margin-right: 0;
+      margin-right: 0;
     }
   }
 
@@ -41,9 +41,9 @@
 
       letter-spacing: -1px;
     }
-  
+
     p {
       max-width: 137px;
     }
-  }   
+  }
 }
