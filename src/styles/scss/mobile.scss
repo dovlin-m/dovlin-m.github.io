@@ -63,6 +63,10 @@
         margin-right: 0;
     }
 
+    .mobile {
+        margin-bottom: 0;
+    }
+
     .mobile-img {
         max-width: 100%;
     }
@@ -70,8 +74,9 @@
     .app-body {
       max-width: 374px;
     }
-  
-    .text-app {
-      margin-bottom: 15px;
+
+    .mb-16 {
+        min-height: 96px;
     }
-  }
+
+}

@@ -103,8 +103,9 @@
 .sub-end {
   color: $white;
   font-size: 16px;
-  max-height: 64px;
-  min-height: 64px;
+  
+
+  min-height: 47px;
 }
 
 .flex-set {
@@ -119,6 +120,10 @@
 
   .sub-header {
     margin-bottom: 45px;
+  }
+
+  .sub-end {
+    min-height: 120px;
   }
 
   .btn-sub {
@@ -152,10 +157,6 @@
   .sub-form {
     margin-bottom: 52px;
   }
-}
-
-.sub-end {
-  min-height: 120px;
 }
 
 .pricing-value {

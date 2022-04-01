@@ -65,7 +65,11 @@
     .nav {
         flex-direction: column;
         align-items: flex-start;
-        margin-bottom: 18px;
+        margin-bottom: 12px;
+    }
+
+    .mh-24 {
+        max-height: 24px;
     }
 
     .header {
