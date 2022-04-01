@@ -3,6 +3,10 @@
     margin-bottom: 100px;
 }
 
+.jc-sa {
+    justify-content: space-around;
+}
+
 .mb-48 {
     margin-bottom: 48px;
 }
@@ -39,6 +43,10 @@
     font-size: 16px;
 }
 
+.min-height {
+    min-height: 131px;
+}
+
 .mobile-header {
     color: $white;
 }
@@ -49,6 +57,10 @@
   
       margin-right: 0;
       margin-bottom: 0;
+    }
+
+    .mobile-img {
+        max-width: 100%;
     }
   
     .app-body {
