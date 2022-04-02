@@ -191,7 +191,7 @@ body {
 .banner {
   padding-top: 200px;
   padding-bottom: 200px;
-  background: url("/src/images/banner.png");
+  background: url("/images/banner.png");
   background-position: center;
   background-size: cover;
 }
@@ -257,19 +257,19 @@ body {
 }
 
 .bg-free {
-  background: url("/src/images/subscribe_1.png");
+  background: url("/images/subscribe_1.png");
   background-position: center;
   background-size: cover;
 }
 
 .bg-standard {
-  background: url("/src/images/subscribe_2.png");
+  background: url("/images/subscribe_2.png");
   background-position: center;
   background-size: cover;
 }
 
 .bg-premium {
-  background: url("/src/images/subscribe_3.png");
+  background: url("/images/subscribe_3.png");
   background-position: center;
   background-size: cover;
 }
@@ -686,7 +686,7 @@ body {
 .bg-artist {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url("/src/images/Morten Harket.png");
+  background-image: url("/images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
